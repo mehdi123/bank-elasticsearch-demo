@@ -1,0 +1,9 @@
+{% if object.content %}
+    {{object.content}}
+{% endif %}
+{% if object.content_fr %}
+    {{object.content_fr}}
+{% endif %}
+{% if object.content_de %}
+    {{object.content_de}}
+{% endif %}
